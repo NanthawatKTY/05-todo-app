@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     css: ["assets/css/tailwind.css"],
     modules: [
         '@nuxtjs/tailwindcss',
-        // '@pinia/nuxt',
+        '@nuxt/ui',
     ],
     meta: {
         title: 'TODO App with Nuxt3',
