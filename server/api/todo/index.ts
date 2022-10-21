@@ -9,6 +9,8 @@ export default defineEventHandler(async (e) => {
 
     //if the method is GET
     if (method === 'GET') {
+        console.log(db.todos);
+        
         return db.todos
     }
 
